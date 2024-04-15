@@ -8,15 +8,15 @@ import SubButton from "./SubButton";
 let screenShots = [
   {
     alt: "chatpage image",
-    src: "/chatpage.png",
+    src: "/chatify_1.png",
   },
   {
     alt: "mainpage image",
-    src: "/mainpage.png",
+    src: "/chatify_2.png",
   },
   {
     alt: "chatpage2 image",
-    src: "/chatpage2.png",
+    src: "/chatify_4.png",
   },
 ];
 const LoggedOutContent = ({isPro}:{isPro: boolean}) => {

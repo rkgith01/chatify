@@ -53,12 +53,24 @@ const ChatPage = async ({ params: { chatId } }: Props) => {
         <div className="flex-[3] border-1-4 border-l-slate-300">
           <ChatComp chatId={parseInt(chatId)} />
         </div>
-        {/* footer component */}
       </div>    
-      {/* <div className="flex-[3] border-1-4 border-l-slate-300">
-        <Footer />
-      </div> */}
     </>
+    //  <>
+    //   <div className="flex flex-col md:flex-row max-h-screen">
+    //     {/* sidebar */}
+    //     <div className="max-w-xs md:max-w-sm lg:max-w-xs flex-shrink-0">
+    //       <SideBar chats={chatsToRead} chatId={parseInt(chatId)} isPro={isPro} />
+    //     </div>
+    //     {/* pdf viewer */}
+    //     <div className="p-4 overflow-scroll flex-1">
+    //       <PdfViewer pdf_url={currentChat?.pdfURL || ""} />
+    //     </div>
+    //     {/* chat component */}
+    //     <div className="border-t md:border-t-0 md:border-l lg:border-l-0 lg:border-t flex-1">
+    //       <ChatComp chatId={parseInt(chatId)} />
+    //     </div>
+    //   </div>
+    //   </>
   );
 };
 
